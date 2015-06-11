@@ -27,11 +27,16 @@ zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
   'editor' \
+  'screen' \
+  'spectrum' \
+  'terminal' \
   'history' \
   'directory' \
   'spectrum' \
   'utility' \
   'completion' \
+  'syntax-highlighting' \
+  'history-substring-search' \
   'prompt'
 
 #
