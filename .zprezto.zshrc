@@ -24,6 +24,9 @@ alias ll='ls -lFh'            # Long view, no hidden
 # Remove unnecessary confirmation for rm -f
 setopt rmstarsilent
 
+# Turn off globbing for rm
+alias rm='noglob rm'
+
 # Helpers
 alias grep='grep --color=auto' # Always highlight grep search term
 alias df='df -h'            # Disk free, in gigabytes, not bytes
